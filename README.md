@@ -11,4 +11,4 @@ There's nothing to read before opening, maybe basic controls:
 7. Shift to change Texture tint
 
 Build:
-gcc main.c -o main.exe -Wall -Iinclude -Llib -lraylib -lgdi32 -lwinmm && .\main.exe
+/gcc main.c -o main.exe -Wall -Iinclude -Llib -lraylib -lgdi32 -lwinmm && .\main.exe
