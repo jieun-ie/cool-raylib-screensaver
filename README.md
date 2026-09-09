@@ -9,3 +9,6 @@ There's nothing to read before opening, maybe basic controls:
 5. Left click to drag the camera around
 6. Mousewheel to zoom in / out
 7. Shift to change Texture tint
+
+Build:
+gcc main.c -o main.exe -Wall -Iinclude -Llib -lraylib -lgdi32 -lwinmm && .\main.exe
